@@ -1,7 +1,7 @@
 body{
     margin-left: 5%;
     height: 1500px;
-    
+    background-color: rgba(167, 168, 168, 0.267);
     padding: 0;
 }
 /*#contenedor{
@@ -18,12 +18,17 @@ header{
        
 }
 nav{
-    background-color: rgb(17, 17, 17);
+   /* background-color: rgb(17, 17, 17);*/
     width: 95%;
    /*height: 80px;*/
     /*margin-top: 5px;*/
     text-align: center;
-    display: inline-block;
+    /*display: inline-block;*/
+    height: 50px;
+    text-align: center;
+   background-color: rgb(0, 0, 0);
+    
+    
 }
 article{
     background-color: rgba(167, 168, 168, 0.267);
@@ -33,34 +38,40 @@ article{
     display: inline-block;
     
 }
+
+/*para dar el ancho de las secciones*/
 /*caja izquierda del article*/
+.seccion , .seccion2{
+    width: 50%;
+    background-color: none;
+}
 
 .seccion{
-    background-color: rgba(167, 168, 168, 0.267);
-    width: 47%;
+    
     float:left;
-    text-align:justify;
-    padding:10px;
+    /*text-align:justify;
+    padding:10px;*/
 
 }
 /*caja derecha del article*/
 .seccion2{
-    background-color: rgba(167, 168, 168, 0.267);
-    width: 47%;
+    
     float:right;
-    display:inline-block;
+   /* display:inline-block;
     text-align:justify;
     padding:10px 10px 10px 10px;
-    
+    */
 
 }
  
 aside{
     background-color: rgba(167, 168, 168, 0.267);
-    width: 34.6%;  
+    width: 35%;  
+    height: 2228px;
     text-align:center;
-    float:right;
-    margin-right:5%;
+    float:left;
+    /*margin-right:5%;*/
+    
 
 }
 footer{
@@ -73,27 +84,30 @@ footer{
 }
 /*para aser a la izquierda la imagen*/
 .logo{
+    width: 20%;
     float: left;
+    height: 100px;
 }
 /*para aser a la derecha la imagen*/
 .logo2{
+    width: 20%;
     float: right;
+    height: 100px;
     
 }
-/*menú de el nav*/
-menu{
-    color: aliceblue;
-    text-align: center;
-    padding: 0 auto;
-    line-height: 55px;
+/*.logo3{
+    width: 60%;
+    height: 100px;
 }
+*/
 /*menú de el nav*/
 .menu {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
-    background-color: #333;
+   /* background-color: #333;*/
+
 }
 
 .lista_menu {
@@ -104,14 +118,17 @@ menu{
     display: block;
     color: white;
     text-align: center;
+    padding: 7px;
+    
 
     text-decoration: none;
 }
 /*color cuando se pasa el puntero sobre el boton*/
 .lista_menu a:hover {
-    background-color: #111;
+    background-color: rgb(83, 81, 81);
 }
-.tops{
+/*par lista del aside*/
+.lista2{
 text-decoration:none;
 list-style:none;
 height:43px;
@@ -119,6 +136,36 @@ background-color:rgb(135, 135, 145);
 text-align:center;
 margin-top:5px;
 line-height:43px;
+}
+/*modificar los parrafos*/
+.parrafos{
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;    
+}
+h1{
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+h2{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.imagenes{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tema_principal{
+    margin: auto;
+    padding: 1%;
+    font-size: 50px
+
 }
 /*para que la barra de menu que de fixiada*/
 .NavFixed {
@@ -134,3 +181,17 @@ line-height:43px;
   .NavFixed a{
     color: white !important;
   } 
+  #tema2{
+      width: 100%;
+      margin-top: 115%;
+  }
+  .lista2 a:hover {
+    background-color: rgb(83, 81, 81);
+}
+.lista2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+      
