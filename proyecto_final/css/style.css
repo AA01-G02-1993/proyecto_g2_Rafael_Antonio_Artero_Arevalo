@@ -48,11 +48,17 @@ article{
     float:right;
    
 }
+.section3{   
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    clear:both;
+}
  
 aside{
     background-color: rgb(167, 168, 168);
     width: 31%;  
-    height: 2197px;
+    height: 2211px;
     text-align:center;
     float:left;
     padding:2%;
@@ -169,11 +175,11 @@ h2{
 .NavFixed a{
     color: white !important;
   } 
-#tema2{
+/*#tema2{
       width: 100%;
       margin-top: 119%;
       text-align: center;
-  }
+  }*/
 .lista2 a:hover {
     background-color: rgb(83, 81, 81);
 }
@@ -217,4 +223,11 @@ img.zoom {
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
-      
+
+
+
+
+
+.image:hover {
+    filter: saturate(180%);
+}

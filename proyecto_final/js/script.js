@@ -57,3 +57,12 @@ $(document).ready(function(){
         $(this).removeClass('transition');
     });
 });
+
+//efecto al pasarsobre una imagen
+$(document).ready(function(){
+    $('.imagen').hover(function() {
+        $(this).addClass('image');
+    }, function() {
+        $(this).removeClass('image');
+    });
+});
