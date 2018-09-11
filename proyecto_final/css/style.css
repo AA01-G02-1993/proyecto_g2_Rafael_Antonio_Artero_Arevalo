@@ -4,11 +4,6 @@ body{
     background-color: rgba(167, 168, 168, 0.267);
     padding: 0;
 }
-/*#contenedor{
-width:90%;
-margin:auto auto;
-border-radius:10px;
-}*/
 
 header{
     background-color: rgba(167, 168, 168, 0.267);
@@ -18,15 +13,11 @@ header{
        
 }
 nav{
-   /* background-color: rgb(17, 17, 17);*/
     width: 95%;
-   /*height: 80px;*/
-    /*margin-top: 5px;*/
-    text-align: center;
-    /*display: inline-block;*/
+    text-align: center; 
     height: 50px;
     text-align: center;
-   background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     
     
 }
@@ -40,44 +31,38 @@ article{
 }
 
 /*para dar el ancho de las secciones*/
-/*caja izquierda del article*/
+
 .seccion , .seccion2{
     width: 50%;
     background-color: none;
 }
-
+/*caja izquierda del article*/
 .seccion{
     
     float:left;
-    /*text-align:justify;
-    padding:10px;*/
-
+   
 }
 /*caja derecha del article*/
 .seccion2{
     
     float:right;
-   /* display:inline-block;
-    text-align:justify;
-    padding:10px 10px 10px 10px;
-    */
-
+   
 }
  
 aside{
-    background-color: rgba(167, 168, 168, 0.267);
-    width: 35%;  
-    height: 2228px;
+    background-color: rgb(167, 168, 168);
+    width: 31%;  
+    height: 2197px;
     text-align:center;
     float:left;
-    /*margin-right:5%;*/
+    padding:2%;
+    
     
 
 }
 footer{
-    background-color: rgba(167, 168, 168, 0.267);
+    background-color: rgba(167, 168, 168, 0.877);
     width: 95%;
-    height: 100px;
     text-align: center;
     margin-top: 5px;
     clear:both;
@@ -95,19 +80,13 @@ footer{
     height: 100px;
     
 }
-/*.logo3{
-    width: 60%;
-    height: 100px;
-}
-*/
+
 /*menú de el nav*/
 .menu {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
     overflow: hidden;
-   /* background-color: #333;*/
-
+    padding: 0.5%;
 }
 
 .lista_menu {
@@ -119,39 +98,48 @@ footer{
     color: white;
     text-align: center;
     padding: 7px;
-    
-
     text-decoration: none;
 }
 /*color cuando se pasa el puntero sobre el boton*/
 .lista_menu a:hover {
     background-color: rgb(83, 81, 81);
 }
+/*para mantener activo novedades en la nav*/
+.activo{
+    background-color: rgb(83, 81, 81);
+   
+}
 /*par lista del aside*/
 .lista2{
-text-decoration:none;
-list-style:none;
-height:43px;
-background-color:rgb(135, 135, 145);
-text-align:center;
-margin-top:5px;
-line-height:43px;
+    text-decoration:none;
+    list-style:none;
+    height:43px;
+    background-color:rgb(135, 135, 145);
+    text-align:center;
+    margin-top:5px;
+    line-height:43px;
 }
 /*modificar los parrafos*/
 .parrafos{
     width: 90%;
     text-align: justify;
-    margin: 0 auto;    
+    margin: 0 auto; 
+    font-family: 'Petrona', serif;
+    color: black !important ; 
 }
 h1{
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 1%;
+    margin-bottom:1%;
+    font-family: 'Arvo', serif;
+    width: 80%;
+
 
 }
 h2{
     width: 90%;
     margin: 0 auto;
+    font-family: 'Fondamento', cursive;
 
 }
 .imagenes{
@@ -178,14 +166,15 @@ h2{
     border: none;
     box-shadow:  2px 2px 1px #999;
   }
-  .NavFixed a{
+.NavFixed a{
     color: white !important;
   } 
-  #tema2{
+#tema2{
       width: 100%;
-      margin-top: 115%;
+      margin-top: 119%;
+      text-align: center;
   }
-  .lista2 a:hover {
+.lista2 a:hover {
     background-color: rgb(83, 81, 81);
 }
 .lista2 a {
@@ -193,5 +182,39 @@ h2{
     color: white;
     text-align: center;
     text-decoration: none;
+}
+
+#pie_pag1 {
+    width:33%;
+    display:inline-block;
+    text-align:left;
+    color:black;
+}
+ #pie_pag2{
+    width:33%;
+    display:inline-block;
+    text-align:left;
+    color:black;
+}
+#pie_pag3{
+    width:33%;
+    display:inline-block;
+    text-align:left;
+    color:black;
+}
+/*efecto de zoom en las imagenes*/
+img.zoom {
+    width: 90%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+/*efecto de zoom en las imagenes*/ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
       
