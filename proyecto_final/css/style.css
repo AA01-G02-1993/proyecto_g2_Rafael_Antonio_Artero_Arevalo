@@ -238,7 +238,7 @@ img.zoom {
 .image:hover {
     filter: saturate(180%);
 }
-
+/*efectos de la lista de imagenes*/
 .flip-box {
     background-color: transparent;
     width: 100%;
