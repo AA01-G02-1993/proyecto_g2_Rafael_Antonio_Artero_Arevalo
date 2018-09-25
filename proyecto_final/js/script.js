@@ -41,15 +41,17 @@ $(document).ready(function(){
         $(this).css("color", "black");
     });
 });
-//efecto al pasar sobre los temas
+//efecto al pasar sobre los temas se cambia de color los textos
 $(document).ready(function(){
     $("h2").hover(function(){
+        //color de el texto cundo esta el puntero sobre el texto 
         $(this).css("color", "gray");
         }, function(){
+            //coloor texto cuando el puntero esta fuera
         $(this).css("color", "black");
     });
 });
-//efecto al pasarsobre una imagen
+//efecto al pasar sobre una imagen se le aplica el efecto de zoom
 $(document).ready(function(){
     $('.zoom').hover(function() {
         $(this).addClass('transition');
@@ -58,7 +60,7 @@ $(document).ready(function(){
     });
 });
 
-//efecto al pasarsobre una imagen
+//efecto al pasar sobre una imagen sele aplica el efecto de saturacion de el header
 $(document).ready(function(){
     $('.imagen').hover(function() {
         $(this).addClass('image');
