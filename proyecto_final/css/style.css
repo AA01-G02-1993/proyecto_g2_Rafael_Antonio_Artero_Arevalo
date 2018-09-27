@@ -2,12 +2,12 @@ body{
    min-width: 768px;
     margin-left: 5%;
     height: 1500px;
-    background-color: rgba(167, 168, 168, 0.267);
+    background-color: rgba(164, 240, 211, 0.452);
     padding: 0;
 }
 
 header{
-    background-color: rgba(167, 168, 168, 0.267);
+    background-color: rgba(2, 2, 2, 0);
     width: 95%;
     height: 100px;
     text-align: center;
@@ -20,12 +20,12 @@ nav{
     text-align: center; 
     height: 50px;
     text-align: center;
-    background-color: rgb(37, 36, 36);
+    background-color: rgba(12, 12, 12, 0.952);
     
     
 }
 article{
-    background-color: rgba(167, 168, 168, 0.267);
+    background-color: rgba(164, 240, 211, 0.267);
     width: 60%;   
     text-align: center;
     float:left;
@@ -61,7 +61,7 @@ article{
 }
  
 aside{
-    background-color: rgba(184, 190, 190, 0.541);
+    background-color: rgba(35, 212, 147, 0.158);
     width: 31%;  
  
     text-align:center;
@@ -72,7 +72,7 @@ aside{
 
 }
 footer{
-    background-color: rgba(167, 168, 168, 0.548);
+    background-color: rgba(35, 212, 147, 0.267);
     width: 95%;
     text-align: center;
     margin-top: 5px;
@@ -238,14 +238,14 @@ img.zoom {
 .image:hover {
     filter: saturate(180%);
 }
-/*efectos de la lista de imagenes*/
+
 .flip-box {
     background-color: transparent;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 300px;
     height: 200px;
     border: 1px solid #f1f1f1;
@@ -285,4 +285,9 @@ img.zoom {
   #lista_img{
       margin-top: 40px;
       margin-bottom: 40px;
+  }
+  /*para modificar color y tamaño a los iconos del aside: fb g+..*/
+  .iconos_de_contacto{
+      color:rgb(0, 0, 0);
+      margin: 10px;
   }
